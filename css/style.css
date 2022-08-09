@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -97,6 +98,11 @@ img {
     height: 100vh;
     color: #fff;
     position: relative;
+}
+
+.main-header.blog {
+    background-image: url(../img/bg-2.jpeg);
+    height: 50vh;
 }
 
 .main-header .content {
@@ -210,6 +216,16 @@ img {
     font-size: 4rem;
 }
 
+/* article */
+.articles {
+    padding: 3rem 5rem;
+}
+
+.article {
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
 /* footer */
 .footer {
     display: flex;
@@ -238,18 +254,18 @@ img {
         font-size: 9px;
     }
 
-    .navbar{
+    .navbar {
         flex-direction: column;
         height: 120px;
         padding: 20px;
     }
 
-    .navbar a{
+    .navbar a {
         padding: 10px;
         margin: 0 3px;
     }
 
-    .teams img{
+    .teams img {
         width: 70%;
     }
 }
