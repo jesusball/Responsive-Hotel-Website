@@ -215,3 +215,15 @@
 .section-padding{
     padding: 2rem 2rem 4rem;
 }
+
+/* cards */
+.card{
+    color: #fff;
+    font-weight: 700;
+}
+
+.card-body{
+    margin-top: -10px;
+    padding: 2rem;
+}
+
