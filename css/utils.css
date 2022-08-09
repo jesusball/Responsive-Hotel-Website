@@ -227,3 +227,21 @@
     padding: 2rem;
 }
 
+/* responsive mobil */
+@media (max-width: 768px) {
+    .flex-items{
+        flex-direction: column;
+    }
+
+    .flex-items > div{
+        padding: 10px;
+    }
+
+    .flex-columns .column{
+        flex: 100%;
+    }
+
+    .flex-grid .column{
+        flex: 50%;
+    }
+}
